@@ -5,7 +5,7 @@
 void main()
 {
 //Declaration part(function 1)
-int CA1,CA2,TermPaper,Best1,Best2;
+int CA1,CA2,TermPaper,Best1,Best2,cal1,cal2,cal;
 cout<<"Enter the value of CA 1";
 cin>>CA1
 cout<<"Enter the value of CA2";
@@ -37,7 +37,11 @@ else
  }
 }
 
-
+//Calculate total from 20
+cal1 = Best1/3;
+cal2 = Best2/3;
+cal = cal1+cal2;
+cout<<"\n total marks from best two ca is"<<cal;
 
 
 }
